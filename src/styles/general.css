@@ -1,0 +1,30 @@
+@import url("./navbar.css");
+@import url("./animations.css");
+:root {
+    --background: #000000; /* Black */
+    --primary: #681313; /* Dark red */
+    --text-color: white; /* White */
+}
+
+html {
+    background-color: var(--background);
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+}
+
+a, h1, h2, h3, h4, h5, p {
+    color: var(--text-color); /* Ensuring text is white */
+}
+
+
+.fade-to-dark {
+    color: var(--text-color); /* Starting color */
+    transition: background-color 0.3s ease; /* Transition for smooth fade effect */
+}
+
+/* Hover pseudo-class to change the color */
+.fade-to-dark:hover {
+    color: var(--background); /* New color when hovered */
+    cursor: pointer;
+}

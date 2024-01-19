@@ -1,0 +1,27 @@
+/* Styling for the navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Stretch across the screen */
+    height: 50px; /* Adjust height as needed */
+    background: var(--primary); /* Dark red background */
+    box-shadow: 0 2px 4px rgba(247, 247, 247, 0.1);
+    z-index: 1000; /* Bring to front */
+    display: flex;
+    justify-content: space-between; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+
+.sub-element-margin{
+    margin: 10px;
+}
+
+.rotate-cog{
+    animation: spin 8s linear infinite;
+
+}
+
+
+  
