@@ -27,20 +27,6 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <FaCog size={ICON_SIZE} className="fade-to-dark" onClick={()=>setOpen(!open)} />
-        {/* <ul style={{ listStyleType: 'none', margin: 0, padding: 0, textAlign: 'center' }}>
-            <li style={{ display: 'inline', marginRight: '20px' }}>
-            <Link to="/">Home</Link>
-            </li>
-            <li style={{ display: 'inline', marginRight: '20px' }}>
-            <Link to="/brotherhood">Brotherhood</Link>
-            </li>
-            <li style={{ display: 'inline', marginRight: '20px' }}>
-            <Link to="/community-service">Community Service</Link>
-            </li>
-            <li style={{ display: 'inline' }}>
-            <Link to="/professional-development">Professional Development</Link>
-            </li>
-        </ul> */}
             <span className="fade-to-dark" onClick={()=>toggleDarkMode()}>
                 {darkMode ? <MdOutlineDarkMode size={ICON_SIZE}/> : <CiLight size={ICON_SIZE}/>}
             </span>
