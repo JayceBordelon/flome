@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
-import COG from "../images/Flome-Cog.png"
+import COG from "../images/Flome-Cog.png";
 
 export default function Navbar() {
+    const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+    const [visible, setVisible] = useState(true);
+
+    const handleScroll = () => {
+        const currentScrollPos = window.pageYOffset;
+        setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+        setPrevScrollPos(currentScrollPos);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [prevScrollPos, visible, handleScroll]);
+
     return (
-        <nav className="bg-white fixed w-screen shadow-md">
-            <div className="max-w-6xl mx-auto px-4 z-1000">
+        <nav className={`bg-white fixed w-screen shadow-md transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
+            <div className="max-w-6xl mx-auto px-4 z-50">
                 <div className="flex justify-between">
                     <div className="flex space-x-4">
                         {/* Logo and Brand Name */}
