@@ -24,6 +24,17 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/benjamin--mueller"
     },
     {
+        "fullName": "Alyssa Lee",
+        "major1": "Biomedical Engineering",
+        "major2": "",
+        "minor1": "Design",
+        "minor2": "",
+        "purpose": "I found FLOME to establish deeper connections within the McKelvey and St. Louis community and challenge myself as well as others to exceed pre-professionally.",
+        "role": "President",
+        "imagePath": `${BASE_IMAGE_PATH}Alyssa.jpg`, // Replace with the actual image name
+        "linkedIn": "https://www.linkedin.com/in/alyssa-lee-504929215/"
+    },
+    {
         "fullName": "Jayce Bordelon",
         "major1": "Computer Science",
         "major2": "",

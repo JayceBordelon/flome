@@ -14,10 +14,15 @@ function MemberCard({ fullName, major1, major2, minor1, minor2, purpose, role, i
 
   return (
     <div key={fullName} className="member-card max-w-sm rounded overflow-hidden shadow-lg bg-white p-6 m-4 text-center">
-      {imagePath && <img className="w-full h-80 object-cover object-center" src={imagePath} alt={`Picture of ${fullName}`} />}
+      {imagePath && <img className="rounded w-full h-80 object-cover object-center" src={imagePath} alt={`Picture of ${fullName}`} />}
       <div className="px-6 py-4">
         <div className="info text-black p-2 rounded mb-2">
-          <h3 className="font-bold text-xl">{fullName}</h3>
+          <h3 className="font-bold text-2xl">{fullName}</h3>
+          {role !== 'Member' && (
+          <div className="info text-black p-2 rounded mb-2">
+            <h3 className="text-xl font-bold text-flome-maroon text-base">{role}</h3>
+          </div>
+        )}
         </div>
         <div className="info text-black p-2 rounded mb-2">
           <h4 className="font-bold text-lg">Major</h4>
@@ -36,12 +41,6 @@ function MemberCard({ fullName, major1, major2, minor1, minor2, purpose, role, i
             {isExpanded ? 'See Less' : 'See More'}
           </button>
         </div>
-        {role && (
-          <div className="info text-black p-2 rounded mb-2">
-            <h4 className="font-bold text-lg">Role</h4>
-            <p className="text-base">{role}</p>
-          </div>
-        )}
         {linkedIn && (
           <div className="info flex justify-center p-2 rounded mb-2">
             <a href={linkedIn} target="_blank" rel="noopener noreferrer">
