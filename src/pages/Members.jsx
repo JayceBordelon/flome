@@ -56,13 +56,13 @@ function MemberCard({ fullName, major1, major2, minor1, minor2, purpose, role, i
 export default function Members() {
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-2xl font-bold my-4">Executives</h1>
+      <h1 className="bg-white rounded  bg-white rounded p-2 text-2xl font-bold my-4">Executives</h1>
       <div className="flex flex-wrap justify-center gap-3">
         {EXEC_MEMBERS.map(member => (
           <MemberCard key={member.fullName} {...member} />
         ))}
       </div>
-      <h1 className="text-2xl font-bold my-4">Members</h1>
+      <h1 className="bg-white rounded  p-2 text-2xl font-bold my-4">Members</h1>
       <div className="flex flex-wrap justify-center gap-4">
         {REGULAR_MEMBERS.map(member => (
           <MemberCard key={member.fullName} {...member} />
