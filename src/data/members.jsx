@@ -1,4 +1,4 @@
-const BASE_IMAGE_PATH = "/src/images/members/";
+const BASE_IMAGE_PATH = "/members/";
 
 export const MEMBERS = [
     {
