@@ -1,9 +1,10 @@
 @import url("./navbar.css");
 @import url("./animations.css");
 :root {
-    --background: #000000; /* Black */
-    --primary: #8F0D0B; /* Dark red */
-    --text-color: white; /* White */
+    --background: #000000;
+    --text-color: #ffffff;
+    --primary-red: #590100;
+    --primary-green: #364d41;
 }
 
 html {
@@ -11,6 +12,8 @@ html {
     padding: 0;
     margin: 0;
     color: var(--text-color);
+    display: flex;
+    justify-content: center;
 }
 
 a, h1, h2, h3, h4, h5, p {
@@ -27,4 +30,10 @@ a, h1, h2, h3, h4, h5, p {
 .fade-to-dark:hover {
     color: var(--background); /* New color when hovered */
     cursor: pointer;
+}
+
+.container{
+    text-align: center;
+    min-width: 100%;
+    
 }
