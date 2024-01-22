@@ -25,12 +25,12 @@ function MemberCard({ fullName, major1, major2, minor1, minor2, purpose, role, i
         )}
         </div>
         <div className="info text-black p-2 rounded mb-2">
-          <h4 className="font-bold text-lg">Major</h4>
+          <h4 className="font-bold text-lg">Major(s)</h4>
           <p className="text-base">{major1} {major2 && `& ${major2}`}</p>
         </div>
         {(minor1 || minor2) && (
           <div className="info text-black p-2 rounded mb-2">
-            <h4 className="font-bold text-lg">Minor</h4>
+            <h4 className="font-bold text-lg">Minor(s)</h4>
             <p className="text-base">{minor1} {minor2 && `& ${minor2}`}</p>
           </div>
         )}

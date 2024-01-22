@@ -30,7 +30,7 @@ export const MEMBERS = [
         "minor1": "Design",
         "minor2": "",
         "purpose": "I found FLOME to establish deeper connections within the McKelvey and St. Louis community and challenge myself as well as others to exceed pre-professionally.",
-        "role": "President",
+        "role": "President & Founder",
         "imagePath": `${BASE_IMAGE_PATH}Alyssa.jpg`, // Replace with the actual image name
         "linkedIn": "https://www.linkedin.com/in/alyssa-lee-504929215/"
     },
