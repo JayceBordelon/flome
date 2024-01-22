@@ -33,5 +33,16 @@ export const MEMBERS = [
         "role": "Vice President",
         "imagePath": `${BASE_IMAGE_PATH}Jayce.jpg`,
         "linkedIn": "https://www.linkedin.com/in/jaycebordelon/"
+    },
+    {
+        "fullName": "Corin Riahi",
+        "major1": "Mechanical Engineering",
+        "major2": "",
+        "minor1": "Energy Engineering",
+        "minor2": "Drama",
+        "purpose": "I joined FLOME because of the numerous opportunities with professional development as well as the amazing and collaborative community.",
+        "role": "Marketing Director",
+        "imagePath": `${BASE_IMAGE_PATH}Corin.jpg`, // Assuming the image name
+        "linkedIn": "https://www.linkedin.com/in/corin-riahi/"
     }
-];
+]
