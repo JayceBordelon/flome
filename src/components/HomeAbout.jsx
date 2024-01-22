@@ -1,9 +1,6 @@
 import React from 'react'
+import Loading from './Loading'
 
 export default function HomeAbout() {
-  return (
-    <div className="container">
-        <h1>Who are we?</h1>
-    </div>
-  )
+  return <Loading/>;
 }
