@@ -13,6 +13,28 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/jonah-sachs-066986240/"
     },
     {
+        "fullName": "Katherine Feng",
+        "major1": "Computer Science",
+        "major2": "Statistics",
+        "minor1": "Women, Gender, and Sexuality Studies",
+        "minor2": "",
+        "purpose": "I was really drawn to the idea of a community of people who were interested in the same things as me and were equally motivated.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Katherine.jpeg`, // Replace with the actual image name
+        "linkedIn": "https://www.linkedin.com/in/katherine-feng1/"
+    },
+    {
+        "fullName": "Eliana Sobel",
+        "major1": "Computer Science",
+        "major2": "",
+        "minor1": "Human-Computer Interaction",
+        "minor2": "",
+        "purpose": "I joined FLOME to form personal connections and develop teamwork skills with fellow engineers in a non-competitive environment. I also want to make sure that I give back to the St. Louis community by keeping volunteering in my schedule through the commitment I made to FLOME. FLOME also has great career-development guidance that I wanted to take advantage of.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Eliana.png`, // Replace with the actual image name
+        "linkedIn": "https://www.linkedin.com/in/eliana-sobel-4b1801289/"
+    },
+    {
         "fullName": "Alfred Jenkins",
         "major1": "Computer Science",
         "major2": "",
@@ -99,5 +121,16 @@ export const MEMBERS = [
         "role": "Marketing Director",
         "imagePath": `${BASE_IMAGE_PATH}Corin.jpg`, 
         "linkedIn": "https://www.linkedin.com/in/corin-riahi/"
-    }
+    },
+    {
+        "fullName": "Okorie Agwu",
+        "major1": "Mechanical Engineering",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I believe that one of the many benefits of being a part of a community/club is some sense of belonging. As well as people who are able and willing to help you along your journey, which is very similar to theirs. As a prospective member, FLOME was presented to me as such community and I decided to join.",
+        "role": "Second Outreach Chair",
+        "imagePath": `${BASE_IMAGE_PATH}Okorie.jpg`, 
+        "linkedIn": "https://www.linkedin.com/in/okorie-agwu-008b04243/"
+    },
 ]
