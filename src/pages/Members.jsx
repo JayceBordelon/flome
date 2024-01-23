@@ -13,10 +13,10 @@ function MemberCard({ fullName, major1, major2, minor1, minor2, purpose, role, i
   };
 
   return (
-    <div key={fullName} className="member-card max-w-xs sm:max-w-sm rounded overflow-hidden shadow-lg bg-white p-6 m-4 text-center">
+    <div key={fullName} className="member-card max-w-xs sm:max-w-sm rounded overflow-hidden  shadow-2xl bg-white p-6 m-4 text-center">
       {imagePath && (
         <div className="w-full h-80 relative rounded">
-          <img className="absolute inset-0 w-full h-full object-cover" src={imagePath} alt={`Picture of ${fullName}`} />
+          <img className="absolute rounded inset-0 w-full h-full object-cover" src={imagePath} alt={`Picture of ${fullName}`} />
         </div>
       )}
       <div className="px-6 py-4">
@@ -60,13 +60,13 @@ function MemberCard({ fullName, major1, major2, minor1, minor2, purpose, role, i
 export default function Members() {
   return (
     <div className="flex flex-col items-center">
-      <h1 className="bg-white rounded  bg-white rounded p-2 text-2xl font-bold my-4">Executives</h1>
+      <h1 className="rounded rounded p-2 text-2xl font-bold my-4">Executives</h1>
       <div className="flex flex-wrap justify-center gap-3">
         {EXEC_MEMBERS.map(member => (
           <MemberCard key={member.fullName} {...member} />
         ))}
       </div>
-      <h1 className="bg-white rounded  p-2 text-2xl font-bold my-4">Members</h1>
+      <h1 className="rounded p-2 text-2xl font-bold my-4">Members</h1>
       <div className="flex flex-wrap justify-center gap-4">
         {REGULAR_MEMBERS.map(member => (
           <MemberCard key={member.fullName} {...member} />

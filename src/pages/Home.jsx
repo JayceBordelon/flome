@@ -29,7 +29,7 @@ export default function Home() {
       {/* Introduction Section */}
       <section className="text-center p-8">
         <h1 className="text-4xl font-bold mb-2">{ABOUT.intro}</h1>
-        <p className="text-xl">{ABOUT.description}</p>
+        <p className="text-xl rounded-lg text-white p-2 m-2 bg-flome-maroon">{ABOUT.description}</p>
       </section>
 
       {/* Pillars Section */}
