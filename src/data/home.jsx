@@ -11,15 +11,15 @@ export const ABOUT = {
     "pillars": 
     {
         "Brotherhood": {
-            "explination": '',
+            "explination": 'Focused on blah blah and blah. sometimes we even blah and blah some more... balah blah blahhhh.',
             "icon": <FaHandshake size={ICON_SIZE} />
         },
         "Professional Development": {
-            "explination": '',
+            "explination": 'Focused on blah blah and blah. sometimes we even blah and blah some more... balah blah blahhhh.',
             "icon": <GiSuitcase size={ICON_SIZE} />
         },
         "Community Service": {
-            "explination": '',
+            "explination": 'Focused on blah blah and blah. sometimes we even blah and blah some more... balah blah blahhhh.',
             "icon": <RiServiceFill size={ICON_SIZE} />
         }
     }

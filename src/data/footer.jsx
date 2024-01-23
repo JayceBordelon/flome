@@ -1,4 +1,4 @@
-const ICON_SIZE = 50;
+const ICON_SIZE = 25;
 import { MdEmail } from "react-icons/md";
 
 

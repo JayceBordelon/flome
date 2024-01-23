@@ -27,9 +27,9 @@ export default function Home() {
   return (
     <div className="w-full mx-auto m-2 p-4">
       {/* Introduction Section */}
-      <section className="text-center py-8">
+      <section className="text-center p-8">
         <h1 className="text-4xl font-bold mb-2">{ABOUT.intro}</h1>
-        <p className="text-lg">{ABOUT.description}</p>
+        <p className="text-xl">{ABOUT.description}</p>
       </section>
 
       {/* Pillars Section */}
@@ -37,9 +37,9 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-6">Our Pillars</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
           {Object.entries(ABOUT.pillars).map(([pillar, details], index) => (
-            <div key={index} className="shadow-lg rounded-lg p-6">
+            <div key={index} className="shadow-lg text-white bg-flome-maroon rounded-lg p-6">
               {details.icon}
-              <h3 className="text-xl font-semibold mt-4">{pillar}</h3>
+              <h3 className="text-2xl font-semibold mt-4">{pillar}</h3>
               <p>{details.explination}</p>
             </div>
           ))}
@@ -49,25 +49,25 @@ export default function Home() {
       {/* Gallery Section */}
       <section className="py-8">
       <h2 className="text-3xl font-bold text-center mb-6">Hope to see you soon!</h2>
-      <div className="w-1/4 sm:w-3/4 mx-auto">
+      <div className="w-3/4 mx-auto">
         <Slider {...settings}>
         <div>
-          <img src={GROUP_PIC} alt="Group Picture" className="rounded-lg w-full  object-cover" style={{'maxHeight': '500px'}}/>
+          <img src={GROUP_PIC} alt="Group Picture" className="rounded-lg w-full object-cover" style={{'height': '500px'}}/>
         </div>
         <div>
-          <img src={PAPER_BUILD} alt="Paper Build" className="rounded-lg w-full  object-cover" style={{'maxHeight': '500px'}}/>
+          <img src={PAPER_BUILD} alt="Paper Build" className="rounded-lg w-full object-cover" style={{'height': '500px'}}/>
         </div>
         <div>
-          <img src={ACTIVITY_FAIR} alt="Activity Fair" className="rounded-lg w-full  object-cover" style={{'maxHeight': '500px'}}/>
+          <img src={ACTIVITY_FAIR} alt="Activity Fair" className="rounded-lg w-full object-cover" style={{'height': '500px'}}/>
         </div>
         <div>
-          <img src={FANCY} alt="fancy" className="rounded-lg w-full  object-cover" style={{'maxHeight': '500px'}}/>
+          <img src={FANCY} alt="fancy" className="rounded-lg w-full object-cover" style={{'height': '500px'}}/>
         </div>
         <div>
-          <img src={PRESENTATION} alt="pres" className="rounded-lg w-full  object-cover" style={{'maxHeight': '500px'}}/>
+          <img src={PRESENTATION} alt="pres" className="rounded-lg w-full  object-cover" style={{'height': '500px'}}/>
         </div>
         <div>
-          <img src={W} alt="Activity Fair" className="rounded-lg w-full  object-cover" style={{'maxHeight': '500px'}}/>
+          <img src={W} alt="Activity Fair" className="rounded-lg w-full  object-cover" style={{'height': '500px'}}/>
         </div>
         </Slider>
       </div>
