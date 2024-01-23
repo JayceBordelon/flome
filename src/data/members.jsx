@@ -24,6 +24,28 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/alfred-jenkins-835a27282/"
     },
     {
+        "fullName": "Tyler Duchscherer",
+        "major1": "Computer Science",
+        "major2": "East Asian Languages and Culture",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME to meet and collaborate with other engineering students. Additionally, I saw it as a chance to help further myself professionally.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Tyler.jpg`, // Replace with the actual image name
+        "linkedIn": "https://www.linkedin.com/in/tyler-duchscherer-230a8b299/"
+    },
+    {
+        "fullName": "Ryan Schmadtke",
+        "major1": "Mechanical Engineering",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME to meet hard-working engineers looking to succeed in school and their careers. I also joined to meet like-minded people who have interesting hobbies and passions.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Ryan.png`, 
+        "linkedIn": "https://www.linkedin.com/in/ryan-schmadtke-115a46270/"
+    },
+    {
         "fullName": "Dorian Marr",
         "major1": "Computer Science",
         "major2": "Anthropology",
