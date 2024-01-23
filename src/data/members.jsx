@@ -53,7 +53,18 @@ export const MEMBERS = [
         "minor2": "Drama",
         "purpose": "I joined FLOME because of the numerous opportunities with professional development as well as the amazing and collaborative community.",
         "role": "Marketing Director",
-        "imagePath": `${BASE_IMAGE_PATH}Corin.jpg`, // Assuming the image name
+        "imagePath": `${BASE_IMAGE_PATH}Corin.jpg`, 
         "linkedIn": "https://www.linkedin.com/in/corin-riahi/"
+    },
+    {
+        "fullName": "Jonah Sachs",
+        "major1": "Computer Science",
+        "major2": "Physics",
+        "minor1": "Quantum Engineering",
+        "minor2": "Nanoscale Science and Engineering",
+        "purpose": "To meet engineers in disciples other than computer science and to hopefully give a little back to the St Louis community.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Jonah.jpg`, 
+        "linkedIn": "https://www.linkedin.com/in/jonah-sachs-066986240/"
     }
 ]
