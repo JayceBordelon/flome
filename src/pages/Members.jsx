@@ -14,7 +14,11 @@ function MemberCard({ fullName, major1, major2, minor1, minor2, purpose, role, i
 
   return (
     <div key={fullName} className="member-card max-w-xs sm:max-w-sm rounded overflow-hidden shadow-lg bg-white p-6 m-4 text-center">
-      {imagePath && <img className="rounded w-full h-70 object-cover object-center" src={imagePath} alt={`Picture of ${fullName}`} />}
+      {imagePath && (
+        <div className="w-full h-80 relative rounded">
+          <img className="absolute inset-0 w-full h-full object-cover" src={imagePath} alt={`Picture of ${fullName}`} />
+        </div>
+      )}
       <div className="px-6 py-4">
         <div className="info text-black p-2 rounded mb-2">
           <h3 className="font-bold text-2xl">{fullName}</h3>
