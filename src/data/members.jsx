@@ -13,6 +13,17 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/jonah-sachs-066986240/"
     },
     {
+        "fullName": "Alfred Jenkins",
+        "major1": "Computer Science",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I was introduced to the club during the activities fair and became interested in the club as a way to have people to develop with in my own major. I wanted to find a club to grow in leadership and have opportunities to network.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Alfred.png`,
+        "linkedIn": "https://www.linkedin.com/in/alfred-jenkins-835a27282/"
+    },
+    {
         "fullName": "Dorian Marr",
         "major1": "Computer Science",
         "major2": "Anthropology",
