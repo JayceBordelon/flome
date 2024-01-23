@@ -20,7 +20,7 @@ export default function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,         // Enables autoplay mode
-    autoplaySpeed: 2000,    // Time each slide is displayed
+    autoplaySpeed: 3000,    // Time each slide is displayed
     adaptiveHeight: true
   };
 
