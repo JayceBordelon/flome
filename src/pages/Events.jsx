@@ -7,7 +7,7 @@ export default function Events() {
       <h2 className="rounded text-2xl font-bold mb-4">Events</h2>
       <div className="divide-y divide-gray-200">
         {EVENTS.map((event, index) => (
-          <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4 px-6 my-2 rounded shadow-lg bg-black text-white">
+          <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4 px-6 my-2 rounded shadow-lg bg-flome-maroon text-white">
             <div>
               <h3 className="font-bold text-xl mb-2">{event.name}</h3>
               <p>{event.description}</p>
