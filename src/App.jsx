@@ -4,11 +4,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Pages
 import Home from './pages/Home';
 import Events from './pages/Events';
+import Members from './pages/Members';
 
 // Nav
 import Navbar from './components/Navbar';
-import Members from './pages/Members';
+
+// Components
 import Backdrop from './components/Backdrop';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
           <Route path="/members" element={<Members />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }
