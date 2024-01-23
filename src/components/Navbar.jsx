@@ -18,7 +18,7 @@ export default function Navbar() {
     }, [prevScrollPos, visible, handleScroll]);
 
     return (
-        <nav className={`bg-white fixed w-screen shadow-md transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
+        <nav className={`z-50 bg-white fixed w-screen shadow-md transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
             <div className="max-w-6xl mx-auto px-4 z-50">
                 <div className="flex justify-between">
                     <div className="flex space-x-4">
