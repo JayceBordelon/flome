@@ -5,7 +5,7 @@ export default function Intro({ setDoneTyping }) {
     const Future = "The Future Leaders of McKelvey Engineering!";
     const FLOME = "FLOME!";
     const typingDelay = 25; // Delay per character in ms
-    const additionalDelay = 3000; // Additional delay to account for pauses
+    const additionalDelay = 4000; // Additional delay to account for pauses
 
     // Calculate total duration
     const totalDuration = (Future.length + FLOME.length) * typingDelay + additionalDelay;

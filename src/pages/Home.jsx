@@ -32,7 +32,7 @@ export default function Home() {
       {/* Introduction Section */}
       <section className="text-center p-8">
       <h1 className="text-4xl font-bold mb-2 mb-8">Welcome to {doneTyping? "FLOME!" : <Intro setDoneTyping={setDoneTyping}/>}</h1>
-        <p className="text-xl rounded-lg text-white p-2 m-2 bg-flome-maroon">{ABOUT.description}</p>
+        <p className="text-2xl rounded-lg text-white p-2 m-2 font-bold">{ABOUT.description}</p>
       </section>
 
       {/* Pillars Section */}
