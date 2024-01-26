@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Navbar />
       <Backdrop />
-      <div className="pt-16"> {/* Adjust the padding value as needed */}
+      <div className="pt-16 bg-dark-background"> {/* Adjust the padding value as needed */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />

@@ -3,7 +3,7 @@ import { FOOTER } from '../data/footer';
 
 export default function Footer() {
   return (
-    <footer className="bg-flome-maroon text-white p-6">
+    <footer className="bg-dark-background text-white p-4">
       <div className="container mx-auto text-center">
         {/* Contact Section */}
         <div className="mb-4">

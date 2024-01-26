@@ -6,3 +6,12 @@
       transform: rotate(360deg);
     }
   }
+
+  .spin-infinite {
+    animation: spin infinite linear;
+  }
+
+  .spin-slow {
+    animation: spin infinite 10s linear; /* 10s for a slower spin */
+  }
+  

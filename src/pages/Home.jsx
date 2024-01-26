@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -10,6 +10,7 @@ import ACTIVITY_FAIR from "../images/Activity_Fair.jpg";
 import FANCY from "../images/FANCY.jpg";
 import PRESENTATION from "../images/PRESENTATION.jpg";
 import W from "../images/W.jpg";
+import Intro from '../components/Intro.jsx';
 
 
 export default function Home() {
@@ -24,11 +25,13 @@ export default function Home() {
     adaptiveHeight: true
   };
 
+  const [doneTyping, setDoneTyping] = useState(false);
+
   return (
     <div className="w-full mx-auto m-2 p-4">
       {/* Introduction Section */}
       <section className="text-center p-8">
-        <h1 className="text-4xl font-bold mb-2">{ABOUT.intro}</h1>
+      <h1 className="text-4xl font-bold mb-2 mb-8">Welcome to {doneTyping? "FLOME!" : <Intro setDoneTyping={setDoneTyping}/>}</h1>
         <p className="text-xl rounded-lg text-white p-2 m-2 bg-flome-maroon">{ABOUT.description}</p>
       </section>
 
@@ -40,7 +43,6 @@ export default function Home() {
             <div key={index} className="shadow-lg text-white bg-flome-maroon rounded-lg p-6">
               {details.icon}
               <h3 className="text-2xl font-semibold mt-4">{pillar}</h3>
-              <p>{details.explination}</p>
             </div>
           ))}
         </div>

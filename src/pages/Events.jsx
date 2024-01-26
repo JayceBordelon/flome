@@ -1,12 +1,18 @@
 import React from 'react';
 import { EVENTS } from '../data/events';
 
+
+import { HiCog6Tooth } from "react-icons/hi2";
+
+
 export default function Events() {
+  const DOWNLOAD_PATH = "/events/Info_Session.jpg";
   return (
-    <div className="bg-white mx-auto rounded-lg w-4/5 p-4 m-4 min-h-screen">
-      <h2 className="rounded text-2xl font-bold mb-4">Events</h2>
-      <div className="divide-y divide-gray-200">
-        {EVENTS.map((event, index) => (
+    <div className="bg-dark-gray mx-auto rounded-lg w-4/5 p-4 m-6">
+      <h2 className="rounded text-2xl font-bold mb-4">Info Sessions - Click <a className="underline" href={DOWNLOAD_PATH} download>here</a> to download the info sessions flyer!</h2>
+      <h3>Important note: You must attend one of the two events to be further considered in the rush process!</h3>
+      <div className="p-2 rounded-lg">
+        {EVENTS.info.map((event, index) => (
           <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4 px-6 my-2 rounded shadow-lg bg-flome-maroon text-white">
             <div>
               <h3 className="font-bold text-xl mb-2">{event.name}</h3>
@@ -20,6 +26,12 @@ export default function Events() {
           </div>
         ))}
       </div>
+      <HiCog6Tooth
+        size={100}
+        style={{ animation: 'spin infinite 2s linear' }}
+        className='text-flome-maroon m-auto'
+      />
+      <h1 className="rounded text-2xl font-bold text-center">More coming soon!</h1>
     </div>
   );
 }

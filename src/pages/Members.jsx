@@ -13,34 +13,34 @@ function MemberCard({ fullName, major1, major2, minor1, minor2, purpose, role, i
   };
 
   return (
-    <div key={fullName} className="member-card max-w-xs sm:max-w-sm rounded overflow-hidden  shadow-2xl bg-white p-6 m-4 text-center">
+    <div key={fullName} className="member-card max-w-xs sm:max-w-sm rounded overflow-hidden  shadow-2xl bg-dark-gray p-6 m-4 text-center">
       {imagePath && (
         <div className="w-full h-80 relative rounded">
           <img className="absolute rounded inset-0 w-full h-full object-cover" src={imagePath} alt={`Picture of ${fullName}`} />
         </div>
       )}
       <div className="px-6 py-4">
-        <div className="info text-black p-2 rounded mb-2">
+        <div className="info text-white p-2 rounded mb-2">
           <h3 className="font-bold text-2xl">{fullName}</h3>
           {role !== 'Member' && (
-          <div className="info text-black p-2 rounded mb-2">
-            <h3 className="text-xl font-bold text-flome-maroon text-base">{role}</h3>
+          <div className="info text-white p-2 rounded mb-2">
+            <h3 className="text-xl italic font-extrabold text-flome-maroon text-base">{role}</h3>
           </div>
         )}
         </div>
-        <div className="info text-black p-2 rounded mb-2">
+        <div className="info text-white p-2 rounded mb-2">
           <h4 className="font-bold text-lg">Major(s)</h4>
-          <p className="text-base">{major1} {major2 && `& ${major2}`}</p>
+          <p className="text-white">{major1} {major2 && `& ${major2}`}</p>
         </div>
         {(minor1 || minor2) && (
-          <div className="info text-black p-2 rounded mb-2">
+          <div className="info text-white p-2 rounded mb-2">
             <h4 className="font-bold text-lg">Minor(s)</h4>
             <p className="text-base">{minor1} {minor2 && `& ${minor2}`}</p>
           </div>
         )}
-        <div className="info text-black p-2 rounded mb-2">
+        <div className="info text-white p-2 rounded mb-2">
           <h4 className="font-bold text-lg">Reason for Joining FLOME</h4>
-          <p className={`text-base ${!isExpanded && 'truncate'}`}>{purpose}</p>
+          <p className={`text-white ${!isExpanded && 'truncate'}`}>{purpose}</p>
           <button className="text-blue-500 text-sm mt-1" onClick={toggleExpanded}>
             {isExpanded ? 'See Less' : 'See More'}
           </button>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import COG from "../images/Flome-Cog.png";
+import { IoMdCog } from "react-icons/io";
+
 
 export default function Navbar() {
     const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
@@ -18,23 +19,26 @@ export default function Navbar() {
     }, [prevScrollPos, visible, handleScroll]);
 
     return (
-        <nav className={`z-50 bg-white fixed w-screen shadow-md transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
+        <nav className={`bg-dark-gray z-50 fixed w-screen shadow-md transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
             <div className="max-w-6xl mx-auto px-4 z-50">
                 <div className="flex justify-between">
-                    <div className="flex space-x-4">
+                    <div className="flex space-x-4 md:space-x-8">
                         {/* Logo and Brand Name */}
                         <div>
-                            <a href="/" className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
-                                <img src={COG} alt="Logo" className="h-8 w-8 mr-2" />
-                                <span className="font-bold">FLOME</span>
+                            <a href="/" className="flex items-center py-5 px-2 text-dark-text hover:text-dark-accent">
+                                <IoMdCog
+                                    style={{ animation: 'spin infinite 10s linear' }}
+                                    className='text-flome-maroon m-auto h-8 w-8 m-1'
+                                />
+                                    <span className="font-bold">FLOME</span>
                             </a>
                         </div>
 
                         {/* Primary Nav */}
-                        <div className="flex items-center space-x-1">
-                            <Link to="/" className="py-5 px-3 text-gray-700 hover:text-gray-900">Home</Link>
-                            <Link to="/events" className="py-5 px-3 text-gray-700 hover:text-gray-900">Events</Link>
-                            <Link to="/members" className="py-5 px-3 text-gray-700 hover:text-gray-900">Members</Link>
+                        <div className="flex items-center space-x-4 md:space-x-8">
+                            <Link to="/" className="py-5 px-3 text-dark-text hover:text-dark-accent">Home</Link>
+                            <Link to="/events" className="py-5 px-3 text-dark-text hover:text-dark-accent">Events</Link>
+                            <Link to="/members" className="py-5 px-3 text-dark-text hover:text-dark-accent">Members</Link>
                         </div>
                     </div>
                 </div>
