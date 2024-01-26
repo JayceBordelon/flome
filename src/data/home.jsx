@@ -10,7 +10,7 @@ export const ABOUT = {
     "description": "We are dedicated to creating meaningful relationships within McKelvey, developing and maintaining a high standard of professional interest among its members, and taking on community service-based projects to give back to the St. Louis community.",
     "pillars": 
     {
-        "Brotherhood": {
+        "Fellowship": {
             "explination": '',
             "icon": <FaHandshake size={ICON_SIZE} />
         },
