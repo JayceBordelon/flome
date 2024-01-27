@@ -36,9 +36,9 @@ export default function Navbar() {
 
                         {/* Primary Nav */}
                         <div className="flex items-center space-x-4 md:space-x-8">
-                            <Link to="/" className="py-5 px-3 text-dark-text hover:text-dark-accent">Home</Link>
-                            <Link to="/events" className="py-5 px-3 text-dark-text hover:text-dark-accent">Events</Link>
-                            <Link to="/members" className="py-5 px-3 text-dark-text hover:text-dark-accent">Members</Link>
+                            <Link to="/" className="py-5 px-2 text-dark-text hover:text-dark-accent">Home</Link>
+                            <Link to="/events" className="py-5 px-2 text-dark-text hover:text-dark-accent">Events</Link>
+                            <Link to="/members" className="py-5 px-2 text-dark-text hover:text-dark-accent">Members</Link>
                         </div>
                     </div>
                 </div>
