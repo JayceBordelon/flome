@@ -24,7 +24,7 @@ export default function Events() {
             <div className="md:text-right">
               <p><strong>Date:</strong> {event.dateAndTime.toLocaleDateString()}</p>
               <p><strong>Time:</strong> {event.dateAndTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</p>
-              <a className="underline center text-sky-300" href="https://forms.gle/vGwE9zzVHKmNngx19">{'Register for this event!'}</a>
+              <a className="underline center text-sky-300" target="_blank" href="https://forms.gle/vGwE9zzVHKmNngx19">{'Register for this event!'}</a>
             </div>
           </div>
         ))}
