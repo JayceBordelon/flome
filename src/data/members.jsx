@@ -79,6 +79,17 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/ryan-schmadtke-115a46270/"
     },
     {
+        "fullName": "Eric Wang",
+        "major1": "Computer Science + Math",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "FLOME offered a community of like-minded students working together towards professional development and career growth.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Eric.jpg`, // Replace with the actual image name
+        "linkedIn": "https://www.linkedin.com/in/gnawcire/"
+    },
+    {
         "fullName": "Dorian Marr",
         "major1": "Computer Science",
         "major2": "Anthropology",
