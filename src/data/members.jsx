@@ -57,6 +57,17 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/tyler-duchscherer-230a8b299/"
     },
     {
+        "fullName": "Hunter Rocker",
+        "major1": "Mechanical Engineering",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME to connect with fellow engineers on campus and make a difference in the community.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Hunter.jpg`, // Replace with the actual image name
+        "linkedIn": "https://www.linkedin.com/in/hunter-rocker-30a484262/"
+    },
+    {
         "fullName": "Ryan Schmadtke",
         "major1": "Mechanical Engineering",
         "major2": "",
@@ -121,6 +132,17 @@ export const MEMBERS = [
         "role": "Marketing Director",
         "imagePath": `${BASE_IMAGE_PATH}Corin.jpg`, 
         "linkedIn": "https://www.linkedin.com/in/corin-riahi/"
+    },
+    {
+        "fullName": "Eman Teshome",
+        "major1": "Computer Science",
+        "major2": "Sociology",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME because it offers McKelvey students a unique opportunity to participate in a multifaceted club. I appreciate being part of a group that emphasizes not only professional development but also service and community.",
+        "role": "Outreach Chair",
+        "imagePath": `${BASE_IMAGE_PATH}Eman.jpg`, // Replace with the actual image name
+        "linkedIn": "https://www.linkedin.com/in/eman-teshome-812824292/"
     },
     {
         "fullName": "Okorie Agwu",
