@@ -204,7 +204,7 @@ export const MEMBERS = [
     },
     {
         "fullName": "Susanna Yeh",
-        "major1": "Computer Science",
+        "major1": "Mechanical Engineering",
         "major2": "",
         "minor1": "",
         "minor2": "",
