@@ -172,13 +172,68 @@ export const MEMBERS = [
     {
         "fullName": "Joshua Kim",
         "major1": "Computer Science",
-        "major2": "HCI",
+        "major2": "",
         "minor1": "Design",
-        "minor2": "",
+        "minor2": "HCI",
         "purpose": "I became a member of FLOME with the aim of connecting with fellow engineering enthusiasts committed to learning and fostering a cooperative environment.",
         "role": "Member",
         "imagePath": `${BASE_IMAGE_PATH}Joshua.jpg`,
         "linkedIn": "https://www.linkedin.com/in/joshua-kim-383a74242"
+    },
+    {
+        "fullName": "Gabe Herman",
+        "major1": "Systems Science & Engineering",
+        "major2": "Electrical Engineering",
+        "minor1": "Computer Science",
+        "minor2": "",
+        "purpose": "I wanted to explore new opportunities within engineering and be part of a network of engineering students not limited to my major.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Gabe.jpg`,
+        "linkedIn": "https://www.linkedin.com/in/gabriel-herman-12b47118b"
+    },
+    {
+        "fullName": "Petra Caldwell",
+        "major1": "Computer Science",
+        "major2": "",
+        "minor1": "Spanish",
+        "minor2": "Psychology ",
+        "purpose": "I joined FLOME to find a community of like-minded individuals who share a commitment to technology and engineering. It's a unique environment and provides a great opportunity for professional development and collaboration in the engineering field.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Petra.jpg`,
+        "linkedIn": "https://www.linkedin.com/in/petra-caldwell-62938622b"
+    },
+    {
+        "fullName": "Susanna Yeh",
+        "major1": "Computer Science",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME because I knew it would allow for me to learn more about professional development and various engineering opportunities. It also provided me with amazing connections with other McKelvey students that I can learn and grow from.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Susanna.jpg`,
+        "linkedIn": "https://www.linkedin.com/in/susanna-yeh-5914ab213"
+    },
+    {
+        "fullName": "Sophia Zhang",
+        "major1": "Computer Science + Econ",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME because I wanted to make more friends who plan to go down the same path as me so we can share advice and opportunities with each other.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Sophia.jpg`,
+        "linkedIn": " https://www.linkedin.com/in/sophia-zhang-08333326b"
+    },
+    {
+        "fullName": "Bebel Trani",
+        "major1": "Mechanical Engineering",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME to become more involved within the engineering community while learning about professional development.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Bebel.jpg`,
+        "linkedIn": " https://www.linkedin.com/in/bebel-trani-187213263/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     {
         "fullName": "Daniel Oh",
