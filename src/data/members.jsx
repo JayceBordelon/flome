@@ -104,6 +104,17 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/eliana-sobel-4b1801289/"
     },
     {
+        "fullName": "Julia Peppe",
+        "major1": "Mechanical Engineering",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME in order to surround myself with a community of WashU engineers across McKelvey disciplines. Flome now provides me with valuable professional and social relationships and opportunities.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Julia.jpg`, 
+        "linkedIn": "https://www.linkedin.com/in/juliapeppe" 
+    },
+    {
         "fullName": "Alfred Jenkins",
         "major1": "Computer Science",
         "major2": "",
