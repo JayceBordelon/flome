@@ -57,17 +57,7 @@ export const MEMBERS = [
         "imagePath": `${BASE_IMAGE_PATH}Eman.jpg`,
         "linkedIn": "https://www.linkedin.com/in/eman-teshome-812824292/"
     },
-    {
-        "fullName": "Okorie Agwu",
-        "major1": "Mechanical Engineering",
-        "major2": "",
-        "minor1": "",
-        "minor2": "",
-        "purpose": "I believe that one of the many benefits of being a part of a community/club is some sense of belonging. As well as people who are able and willing to help you along your journey, which is very similar to theirs. As a prospective member, FLOME was presented to me as such community and I decided to join.",
-        "role": "Second Outreach Chair",
-        "imagePath": `${BASE_IMAGE_PATH}Okorie.jpg`,
-        "linkedIn": "https://www.linkedin.com/in/okorie-agwu-008b04243/"
-    },
+
 
     // Members
     {
@@ -179,6 +169,17 @@ export const MEMBERS = [
         "role": "Member",
         "imagePath": `${BASE_IMAGE_PATH}Alex.jpg`,
         "linkedIn": "https://www.linkedin.com/in/alexander-whalen-910794258/"
+    },
+    {
+        "fullName": "Okorie Agwu",
+        "major1": "Mechanical Engineering",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I believe that one of the many benefits of being a part of a community/club is some sense of belonging. As well as people who are able and willing to help you along your journey, which is very similar to theirs. As a prospective member, FLOME was presented to me as such community and I decided to join.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Okorie.jpg`,
+        "linkedIn": "https://www.linkedin.com/in/okorie-agwu-008b04243/"
     },
     {
         "fullName": "Joshua Kim",
