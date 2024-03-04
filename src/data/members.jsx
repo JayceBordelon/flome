@@ -308,7 +308,7 @@ export const MEMBERS = [
         "major2": "",
         "minor1": "",
         "minor2": "",
-        "purpose": "I joined FLOME to join a collaborative group of people with similar academic interests. I also appreciate FLOME's emphasis on community engagement as that is",
+        "purpose": "I joined FLOME to join a collaborative group of people with similar academic interests. I also appreciate FLOME's emphasis on community engagement as that is an integral persuit of mine.",
         "role": "Member",
         "imagePath": `${BASE_IMAGE_PATH}Sasha.jpeg`,
         "linkedIn": "https://www.linkedin.com/in/sasha-grewal-a42671276"
