@@ -292,6 +292,17 @@ export const MEMBERS = [
         "linkedIn": ""
     },    
     {
+        "fullName": "Zichun (Jerry) Gao",
+        "major1": "Computer Engineering",
+        "major2": "Electrical Engineering",
+        "minor1": "Mechanical Engineering",
+        "minor2": "",
+        "purpose": "To me, FLOME seemed like a very aspiring organization to be a part of. I wanted the opportunity to connect with fellow McKelvey engineers in professional and social environments as a member of FLOME. At the same time, I could build my leadership and communication skills with an engineering mindset of problem-solving and rising up to challenges.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Zichun.png`,
+        "linkedIn": "https://www.linkedin.com/in/zichun-gao-6b159521b/"
+    },    
+    {
         "fullName": "Dorian Marr",
         "major1": "Computer Science",
         "major2": "Anthropology",
