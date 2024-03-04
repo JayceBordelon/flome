@@ -316,3 +316,5 @@ export const MEMBERS = [
 
     
 ]
+
+export const TOTAL_NUMBER_OF_MEMBERS = MEMBERS.length;
