@@ -303,6 +303,17 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/zichun-gao-6b159521b/"
     },    
     {
+        "fullName": "Sasha Grewal",
+        "major1": "Biomedical Engineering",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I joined FLOME to join a collaborative group of people with similar academic interests. I also appreciate FLOME's emphasis on community engagement as that is",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Sasha.jpeg`,
+        "linkedIn": "https://www.linkedin.com/in/sasha-grewal-a42671276"
+    },    
+    {
         "fullName": "Dorian Marr",
         "major1": "Computer Science",
         "major2": "Anthropology",
