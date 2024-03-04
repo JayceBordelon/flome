@@ -259,6 +259,39 @@ export const MEMBERS = [
         "linkedIn": "https://www.linkedin.com/in/daniel-oh-18b72b251/"
     },
     {
+        "fullName": "Sanya Ajmani",
+        "major1": "Computer Science",
+        "major2": "Economics",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I want to get to know more people in my field of study and I appreciate the professional resources that FLOME offers.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Sanya.jpg`,
+        "linkedIn": "https://www.linkedin.com/in/sanya-ajmani-8ba894299?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuppnArrpRmCdOQy2d49yHQ%3D%3D"
+    },
+    {
+        "fullName": "Ephraim Weiss",
+        "major1": "Mechanical Engineering",
+        "major2": "",
+        "minor1": "",
+        "minor2": "",
+        "purpose": "I wanted to join a community of engineers across the various majors to learn more about opportunities and other influences.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Ephraim.jpg`,
+        "linkedIn": "https://www.linkedin.com/in/ephraim-weiss-6690a0282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+        "fullName": "Hadia Khatri",
+        "major1": "Chemical Engineering",
+        "major2": "",
+        "minor1": "Environmental Science",
+        "minor2": "Finance",
+        "purpose": "I joined FLOME so I could be in a cool community of engineers and learn about career experiences and opportunities on campus and off-campus. Additionally, I’m not sure about my major of chemical engineering and want to explore the other engineerings through people’s experiences in them within the club.",
+        "role": "Member",
+        "imagePath": `${BASE_IMAGE_PATH}Hadia.jpeg`,
+        "linkedIn": ""
+    },    
+    {
         "fullName": "Dorian Marr",
         "major1": "Computer Science",
         "major2": "Anthropology",
